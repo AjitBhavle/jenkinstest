@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Demo" duration-ms="1889" started-at="2019-04-02T06:28:00Z" finished-at="2019-04-02T06:28:02Z">
+    <groups>
+    </groups>
+    <test name="Demo" duration-ms="1889" started-at="2019-04-02T06:28:00Z" finished-at="2019-04-02T06:28:02Z">
+      <class name="mainClass.LoginPage">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:mainClass.LoginPage@5622fdf]" name="openBrowser" is-config="true" duration-ms="13434" started-at="2019-04-02T06:27:47Z" finished-at="2019-04-02T06:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="startReport()[pri:0, instance:mainClass.LoginPage@5622fdf]" name="startReport" is-config="true" duration-ms="240" started-at="2019-04-02T06:28:00Z" finished-at="2019-04-02T06:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="testLogger(java.lang.reflect.Method)[pri:0, instance:mainClass.LoginPage@5622fdf]" name="testLogger" is-config="true" duration-ms="25" started-at="2019-04-02T06:28:00Z" finished-at="2019-04-02T06:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mainClass.LoginPage.Login() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogger -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:mainClass.LoginPage@5622fdf]" name="Login" duration-ms="770" started-at="2019-04-02T06:28:00Z" finished-at="2019-04-02T06:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:mainClass.LoginPage@5622fdf]" name="getResult" is-config="true" duration-ms="5" started-at="2019-04-02T06:28:01Z" finished-at="2019-04-02T06:28:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginPage.Login()[pri:0, instance:mainClass.LoginPage@5622fdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="LoginVerification()[pri:0, instance:mainClass.LoginPage@5622fdf]" name="LoginVerification" duration-ms="69" started-at="2019-04-02T06:28:01Z" finished-at="2019-04-02T06:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginVerification -->
+        <test-method status="PASS" signature="testLogger(java.lang.reflect.Method)[pri:0, instance:mainClass.LoginPage@5622fdf]" name="testLogger" is-config="true" duration-ms="0" started-at="2019-04-02T06:28:01Z" finished-at="2019-04-02T06:28:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mainClass.LoginPage.LoginVerification() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogger -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:mainClass.LoginPage@5622fdf]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-02T06:28:01Z" finished-at="2019-04-02T06:28:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginVerification status=SUCCESS method=LoginPage.LoginVerification()[pri:0, instance:mainClass.LoginPage@5622fdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:mainClass.LoginPage@5622fdf]" name="endReport" is-config="true" duration-ms="722" started-at="2019-04-02T06:28:01Z" finished-at="2019-04-02T06:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:mainClass.LoginPage@5622fdf]" name="afterClass" is-config="true" duration-ms="3751" started-at="2019-04-02T06:28:02Z" finished-at="2019-04-02T06:28:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- mainClass.LoginPage -->
+    </test> <!-- Demo -->
+  </suite> <!-- Demo -->
+</testng-results>
