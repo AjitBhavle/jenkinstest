@@ -35,6 +35,8 @@ public static WebDriver driver;
     	
     	//DesiredCapabilities capabilities=DesiredCapabilities.firefox();
     	//capabilities.setCapability("marionette", true);
+		//System.setProperty("webdriver.gecko.driver","C:\\FHE Team A\\SeleniumAutomation\\java\\geckodriver.exe");
+
 		System.setProperty("webdriver.gecko.driver","C:\\FHE Team A\\SeleniumAutomation\\java\\geckodriver.exe");
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
