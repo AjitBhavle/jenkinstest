@@ -17,7 +17,7 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     javaHomeOption: 'Path'
-    jdkDirectory: 'C:\Program Files\Java\jdk1.8.0_201\jre'
+    jdkDirectory: 'C:\Program Files\Java\jdk1.8.0_201'
     mavenVersionOption: 'Default'
     mavenAuthenticateFeed: false
     sonarQubeRunAnalysis: false
