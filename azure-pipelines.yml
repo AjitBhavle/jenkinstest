@@ -13,13 +13,10 @@ steps:
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
-    goals: 'clean package'
-    publishJUnitResults: true
-    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
-    mavenVersionOption: 'Path'
-    mavenDirectory: 'C:\FHE Team A\SeleniumAutomation\Git Proj\Demo'
-    mavenSetM2Home: false
-    mavenAuthenticateFeed: false
-    sonarQubeRunAnalysis: false
+    jdkArchitectureOption: 'x64'
+    publishJUnitResults: false
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    goals: 'package'
