@@ -1,5 +1,5 @@
 # Maven
-- task: Maven@3
+- task: Maven@3-
   inputs:
     mavenPomFile: 'pom.xml'
     goals: 'test'
@@ -15,4 +15,4 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 trigger:
--master
+ - master-
