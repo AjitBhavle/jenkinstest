@@ -24,7 +24,7 @@ public class LoginPage extends BaseClass {
 		 	LoginPageObjects.userName(driver).sendKeys(uname);
 		 	LoginPageObjects.password(driver).sendKeys(pass);
 		 	//LoginPageObjects.password(driver).sendKeys(pass);
-		 	//LoginPageObjects.password(driver).sendKeys(pass);
+		 	LoginPageObjects.password(driver).sendKeys(pass);
 		 	wait= new WebDriverWait(driver,10);
 		 	wait.until(ExpectedConditions.elementToBeClickable(LoginPageObjects.loginBtn(driver))).click();
 		 	
